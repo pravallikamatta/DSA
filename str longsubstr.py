@@ -1,3 +1,4 @@
+#didnt understand
 s = "abcabcbb"
 left = 0
 seen = set()
