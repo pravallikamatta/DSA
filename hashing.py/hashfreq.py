@@ -8,4 +8,4 @@ for i in arr:
     else:
         freq[i]=1
 for key, value in freq.items():
-    print(key,"=", value)            
+   print(key,"=", value)         
