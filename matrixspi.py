@@ -11,12 +11,12 @@ right =len(matrix[0])-1 #2
 while top <= bottom and left <= right:
 
     # left → right
-    for i in range(left, right + 1):
-        print(matrix[top][i], end=" ")
+    for i in range(left, right + 1): #0 to 3
+        print(matrix[top][i], end=" ") #space
     top += 1
 
     # top → bottom
-    for i in range(top, bottom + 1):
+    for i in range(top, bottom + 1):#1 to 3
         print(matrix[i][right], end=" ")
     right -= 1
 

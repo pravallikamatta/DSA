@@ -8,5 +8,5 @@ for i in range(1,len(arr)):
         low=arr[i]
     else:
         print("error")        
-print(high)    
-print(low)
+print("high is ", high)    
+print("low is ", low)
